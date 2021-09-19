@@ -14,12 +14,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.flywinter</groupId>
-    <artifactId>syt_parent</artifactId>
+    <artifactId>hospital</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>syt_parent</name>
+    <name>hospital</name>
 <!--    作为父工程创建-->
     <packaging>pom</packaging>
-    <description>syt_parent</description>
+    <description>hospital</description>
     <properties>
         <java.version>11</java.version>
         <cloud.version></cloud.version>

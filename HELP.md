@@ -14,7 +14,7 @@ For further reference, please consider the following sections:
 
 hostipal-manage:医院接口模拟端，已开发，直接使用
 
-syt_parent:项目根目录，管理子模块
+hospital:项目根目录，管理子模块
 
 - common:公共模块父节点
   - common_util：工具类模块，所有模块都可以依赖于它
@@ -31,7 +31,7 @@ syt_parent:项目根目录，管理子模块
 
 
 
->1. 新建syt_parent  springboot项目
+>1. 新建hospital  springboot项目
 >
 >   - packing改为pom，表明是父工程
 >
@@ -51,12 +51,12 @@ syt_parent:项目根目录，管理子模块
 >             <relativePath/> <!-- lookup parent from repository -->
 >         </parent>
 >         <groupId>com.flywinter</groupId>
->         <artifactId>syt_parent</artifactId>
+>         <artifactId>hospital</artifactId>
 >         <version>0.0.1-SNAPSHOT</version>
->         <name>syt_parent</name>
+>         <name>hospital</name>
 >     <!--    作为父工程创建-->
 >         <packaging>pom</packaging>
->         <description>syt_parent</description>
+>         <description>hospital</description>
 >         <properties>
 >             <java.version>11</java.version>
 >             <cloud.version></cloud.version>
@@ -192,7 +192,7 @@ syt_parent:项目根目录，管理子模块
 >              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 >         <parent>
->             <artifactId>syt_parent</artifactId>
+>             <artifactId>hospital</artifactId>
 >             <groupId>com.flywinter</groupId>
 >             <version>0.0.1-SNAPSHOT</version>
 >         </parent>
@@ -251,7 +251,7 @@ syt_parent:项目根目录，管理子模块
 >              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 >         <parent>
->             <artifactId>syt_parent</artifactId>
+>             <artifactId>hospital</artifactId>
 >             <groupId>com.flywinter</groupId>
 >             <version>0.0.1-SNAPSHOT</version>
 >         </parent>
@@ -313,7 +313,7 @@ syt_parent:项目根目录，管理子模块
 >              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 >         <parent>
->             <artifactId>syt_parent</artifactId>
+>             <artifactId>hospital</artifactId>
 >             <groupId>com.flywinter</groupId>
 >             <version>0.0.1-SNAPSHOT</version>
 >         </parent>
